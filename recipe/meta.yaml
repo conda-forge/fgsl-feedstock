@@ -1,16 +1,16 @@
 {% set name = "fgsl" %}
-{% set version = "1.5.0" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/reinh-bader/fgsl/archive/{{ version }}.tar.gz
-  sha256: 5013b4e000e556daac8b3c83192adfe8f36ffdc91d1d4baf0b1cb3100260e664
+  url: https://github.com/reinh-bader/fgsl/archive/v{{ version }}.tar.gz
+  sha256: 8b6a02912b917e4544fed655b8e925c9b7160a063df57afcb35f064f351f1434
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
@@ -47,7 +47,7 @@ about:
     A portable, object-based Fortran interface to the GNU scientific
     library a collection of numerical routines for scientific computing.
   doc_url: https://doku.lrz.de/display/PUBLIC/FGSL+-+A+Fortran+interface+to+the+GNU+Scientific+Library
-  dev_url: https://github.com/reinh-bader/fgsl 
+  dev_url: https://github.com/reinh-bader/fgsl
 
 extra:
   recipe-maintainers:
