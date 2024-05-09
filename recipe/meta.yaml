@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/reinh-bader/fgsl/archive/{{ version }}.tar.gz
+  url: https://github.com/reinh-bader/fgsl/archive/v{{ version }}.tar.gz
   sha256: 8b6a02912b917e4544fed655b8e925c9b7160a063df57afcb35f064f351f1434
 
 build:
